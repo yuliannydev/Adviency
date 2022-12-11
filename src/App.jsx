@@ -1,7 +1,11 @@
+import { ListGifts } from './components/ListGifts'
+import { Title } from './components/Title'
+
 export const App = () => {
   return (
     <div className="App">
-    <h1>Adviency Calendar</h1>
+    <Title />
+    <ListGifts />
     </div>
   )
 }
