@@ -2,5 +2,28 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 800px;
+  background-color: #049CD8;
+  font-size: 1.5rem;
+  background-image: url('./assets/Mario-navidad.webp');
+}
+
+h1 {
+  font-family: 'Rubik Vinyl', cursive;
+  text-align: center;
+  margin: 6rem;
+  font-size: 3.5rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  padding: 6rem;
+  border: 5px #FBD000 solid;
+  border-radius: 10px;
+  background-color: #E52521;
 }
