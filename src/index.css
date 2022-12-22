@@ -5,7 +5,7 @@ body {
   max-width: 800px;
   background-color: #049CD8;
   font-size: 1.5rem;
-  background-image: url('./assets/Mario-navidad.webp');
+  /*background-image: url('./assets/Mario-navidad.webp');*/
 }
 
 h1 {
@@ -26,4 +26,29 @@ ul {
   border: 5px #FBD000 solid;
   border-radius: 10px;
   background-color: #E52521;
+  list-style: none;
+}
+
+form  {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+input {
+  width: 500px;
+  padding: 0.6rem 0.1rem;
+  text-indent: 10px;
+}
+
+input, button {
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #FBD000;
+  color: #E52521;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
